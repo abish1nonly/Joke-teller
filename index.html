@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Joke teller</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    </head>
+    <body>
+        <div class="container" id="container">
+            <div class="joke-container" id="joke-container">
+                <div class="joke-text">
+                    <i class="fas fa-face-grin-tongue-wink"></i>
+                    <span id="joke">Click for talk back jokes...</span>
+                </div>
+            </div>
+            <button class="button" id="button">
+                Tell a Joke
+            </button>
+            <audio id="audio" controls hidden></audio>
+        </div>
+        <div class="loader" id="loader"></div>
+        <script src="script.js"></script>
+        <script src="voice.js"></script>
+    </body>
+</html>
